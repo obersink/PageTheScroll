@@ -35,13 +35,17 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yw-w5-W1y">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="SyW-fE-SbX"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8yw-w5-W1y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1LW-DE-ytM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8yw-w5-W1y" secondAttribute="bottom" id="3dl-JU-eFF"/>
+                            <constraint firstItem="8yw-w5-W1y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6ow-Uc-Alo"/>
                             <constraint firstItem="k9E-eZ-Uli" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HhK-La-HiW"/>
                             <constraint firstAttribute="trailing" secondItem="k9E-eZ-Uli" secondAttribute="trailing" id="JsQ-aK-n4Q"/>
                             <constraint firstAttribute="trailing" secondItem="Pse-RB-tv3" secondAttribute="trailing" id="NHH-qA-GIj"/>
@@ -49,8 +53,6 @@
                             <constraint firstItem="Pse-RB-tv3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tna-p3-Asm"/>
                             <constraint firstItem="Pse-RB-tv3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YxX-ge-a6s"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pse-RB-tv3" secondAttribute="bottom" id="eIR-iK-faC"/>
-                            <constraint firstItem="8yw-w5-W1y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tJN-Nu-2bF"/>
-                            <constraint firstAttribute="trailing" secondItem="8yw-w5-W1y" secondAttribute="trailing" id="yxV-aC-QiF"/>
                         </constraints>
                     </view>
                     <connections>
